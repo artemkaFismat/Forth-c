@@ -65,7 +65,7 @@ void scan(char* input) {
             }
             i = j;
 	    push(&stack, digit);
-            //printf("%d\n", digit);
+            /*printf("%d\n", digit);*/
         }
         else if (isalpha(input[i])) {
             char lexem[100] = {0};
