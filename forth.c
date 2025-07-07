@@ -55,6 +55,7 @@ int is_keyword(const char* in) {
 }
 
 void scan(char* input) {
+    // p
     for (int i = 0; i < sizeof(input); ++i) {
         if (isdigit(input[i])) {
             int digit = input[i] - '0';
